@@ -5,3 +5,6 @@ sudo apt install fzf ripgrep make build-essential tmux git tree htop wget curl c
 
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
+# export PATH="$HOME/.cargo/bin:$PATH"
