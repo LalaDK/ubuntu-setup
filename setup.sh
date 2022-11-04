@@ -6,8 +6,8 @@ sudo apt install -y fzf ripgrep make build-essential tmux git tree htop wget cur
 
 # Install Nerd Font
 rm -rv "$HOME/.fonts/Ubuntu.zip"
-wget -O "$HOME/.fonts/Ubuntu.zip" https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/Ubuntu.zip
-unzip -ov "$HOME/.fonts/Ubuntu.zip"
+wget -O "$HOME/.fonts/Ubuntu.zip" https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/BitstreamVeraSansMono.zip
+unzip "$HOME/.fonts/Ubuntu.zip" -d "$HOME/.fonts"
 rm -rv "$HOME/.fonts/Ubuntu.zip"
 
 # RVM & Ruby
