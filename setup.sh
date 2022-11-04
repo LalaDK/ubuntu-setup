@@ -16,3 +16,8 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # export PATH="$HOME/.cargo/bin:$PATH"
 
 gem install solargraph
+
+
+# Tmux Package Mananger
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
